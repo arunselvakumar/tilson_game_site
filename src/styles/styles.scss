@@ -1,0 +1,22 @@
+html {
+  body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+    main {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      height: 100vh;
+
+      .left-container {
+        background: aqua;
+      }
+
+      .right-container {
+        background: red;
+      }
+    }
+  }
+}

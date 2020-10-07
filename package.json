@@ -1,0 +1,33 @@
+{
+  "name": "tilson_game_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.htm",
+    "build": "parcel build src/index.htm --detailed-report 10 --no-source-maps",
+    "lint": "eslint \"**/*.js\" --ignore-pattern node_modules/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunselvakumar/tilson_game_site.git"
+  },
+  "dependencies": {
+    "modern-normalize": "^0.6.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.11.0",
+    "prettier": "2.0.5",
+    "sass": "^1.26.9"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunselvakumar/tilson_game_site/issues"
+  },
+  "homepage": "https://github.com/arunselvakumar/tilson_game_site#readme"
+}
